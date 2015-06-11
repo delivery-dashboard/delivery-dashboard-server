@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'https://supermarket.getchef.com/api/v1'
+
+cookbook 'apt'
+cookbook 'sudo'
+cookbook 'build-essential'
+cookbook 'ohai'
+cookbook 'runit'
+cookbook 'git'
+cookbook 'openssl'
+cookbook 'postgresql'
+cookbook 'rvm'
